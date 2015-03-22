@@ -26,7 +26,7 @@ role :db,  'ubuntu@ec2-54-64-251-122.ap-northeast-1.compute.amazonaws.com'
 # Global options
 # --------------
 set :ssh_options, {
-  keys: %w(/Users/keisukematsubara/.ssh/my-key.pem),
+  keys: %w(/var/lib/jenkins/.ssh/my-key.pem),
   forward_agent: true
 }
 #
